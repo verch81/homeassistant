@@ -1,4 +1,6 @@
 ---
+# Original blueprint https://github.com/niro1987/homeassistant-config/blob/main/blueprints/automation/niro1987/zha_ikea_tradfri_5button_remote_preset.yaml
+# Modified for use with 4-button ikea remote
 # This automation simulates the use of the IKEA TRADFRI Remote control
 # connected through ZHA.
 
@@ -21,7 +23,7 @@
 #   - (120, 100) # green
 #   - (225, 100) # blue
 #   - (38.222, 52.941) # default
-#   https://github.com/niro1987/homeassistant-config/blob/main/blueprints/automation/niro1987/zha_ikea_tradfri_5button_remote_preset.yaml
+#   
 
 blueprint:
   source_url: https://github.com/verch81/homeassistant/blob/main/ikea-remote.yaml
